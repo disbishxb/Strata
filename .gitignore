@@ -12,6 +12,8 @@ local.properties
 .idea/
 .DS_Store
 __pycache__/
+/*.py
+/*.sh
 
 /keystore.properties
 /*.jks

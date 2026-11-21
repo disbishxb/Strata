@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CluvexStudio/Strata/actions/workflows/build.yml"><img src="https://github.com/CluvexStudio/Strata/actions/workflows/build.yml/badge.svg" alt="Build"></a>
+  <a href="https://github.com/disbishxb/Strata/actions/workflows/build.yml"><img src="https://github.com/disbishxb/Strata/actions/workflows/build.yml/badge.svg" alt="Build"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-0F3D2E" alt="License: AGPL-3.0"></a>
 </p>
 
