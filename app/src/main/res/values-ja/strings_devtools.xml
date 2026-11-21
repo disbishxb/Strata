@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="build_failed_after">%1$s 後に失敗</string>
+    <string name="build_done_in">%1$s で完了</string>
+    <string name="build_running">実行中</string>
+    <plurals name="build_lines_not_kept">
+        <item quantity="other">… 以前の %1$s 行は保持されていません</item>
+    </plurals>
+    <string name="build_log_warning">警告: %1$s</string>
+    <string name="build_log_error">エラー: %1$s</string>
+    <string name="build_seconds">%1$s 秒</string>
+    <string name="build_stopped">停止しました</string>
+    <string name="build_log">ログ</string>
+    <plurals name="build_warnings">
+        <item quantity="other">%1$s 件の警告</item>
+    </plurals>
+    <string name="build_hide_log">ログを隠す</string>
+    <string name="build_show_log">ログを表示</string>
+    <string name="build_copy_log">ログをコピー</string>
+    <string name="build_status_failed">失敗</string>
+    <string name="build_status_done">完了</string>
+    <string name="build_status_working">処理中</string>
+    <string name="build_status_skipped">スキップ</string>
+    <string name="build_status_waiting">待機中</string>
+    <string name="build_step_of">ステップ %1$s / %2$s</string>
+    <plurals name="build_earlier_lines">
+        <item quantity="other">… 以前の %1$s 行</item>
+    </plurals>
+    <string name="build_step_write">%1$s を書き込み</string>
+    <string name="build_step_write_into">%1$s に書き込み</string>
+    <string name="dex_step_find">クラスを検索</string>
+    <string name="dex_step_extract">dex を抽出</string>
+    <string name="dex_step_assemble">smali をアセンブル</string>
+    <string name="dex_step_rebuild">dex を再ビルド</string>
+    <string name="dex_step_write_apk">APK に書き込み</string>
+    <string name="dex_step_write_jar">jar に書き込み</string>
+    <string name="dex_step_write_dex">dex ファイルを置き換え</string>
+    <string name="dex_step_dex2jar">dex2jar で変換</string>
+    <string name="dex_step_read">%1$s を読み込み</string>
+    <string name="dex_step_disassemble">%1$s を逆アセンブル</string>
+    <string name="dex_step_collect">smali ファイルを収集</string>
+    <string name="dex_step_read_jar">jar を読み込み</string>
+    <string name="dex_step_d8">D8 で dex 化と desugar</string>
+    <string name="dex_step_assemble_file">%1$s をアセンブル</string>
+    <string name="dex_step_reload">クラスを再読み込み</string>
+    <string name="dex_step_jadx_load">jadx で読み込み</string>
+    <string name="dex_step_write_java">Java ソースを書き込み</string>
+    <plurals name="dex_class_files">
+        <item quantity="other">%1$s 個の class ファイル</item>
+    </plurals>
+    <plurals name="dex_dex_files">
+        <item quantity="other">%1$s 個の dex ファイル</item>
+    </plurals>
+    <plurals name="dex_smali_files_in">
+        <item quantity="other">%2$s に %1$s 個の smali ファイル</item>
+    </plurals>
+    <plurals name="dex_lines">
+        <item quantity="other">%1$s 行</item>
+    </plurals>
+    <plurals name="dex_classes_assembled">
+        <item quantity="other">%1$s 個のクラスをアセンブルしました</item>
+    </plurals>
+    <plurals name="dex_classes">
+        <item quantity="other">%1$s 個のクラス</item>
+    </plurals>
+    <plurals name="dex_smali_files">
+        <item quantity="other">%1$s 個の smali ファイル</item>
+    </plurals>
+    <plurals name="dex_smali_files_in_folders">
+        <item quantity="other">%2$s 個の dex フォルダーに %1$s 個の smali ファイル</item>
+    </plurals>
+    <plurals name="dex_files">
+        <item quantity="other">%1$s 個のファイル</item>
+    </plurals>
+    <plurals name="dex_more_warnings">
+        <item quantity="other">… さらに %1$s 件の警告</item>
+    </plurals>
+    <plurals name="dex_jadx_errors">
+        <item quantity="other">jadx は %1$s か所を完全に逆コンパイルできませんでした。コード内に印が付いています</item>
+    </plurals>
+    <string name="dex_to_jar_failed">Dex から jar への変換に失敗しました: %1$s</string>
+    <string name="dex_must_define">編集した smali は %1$s を定義する必要があります</string>
+    <string name="dex_new_class">新しいクラス %1$s</string>
+    <string name="dex_size_was">%1$s (以前は %2$s)</string>
+    <string name="dex_class_not_in">%1$s は %2$s にありません</string>
+    <string name="dex_class_is_in">%1$s は %2$s にあります</string>
+    <string name="dex_no_smali">%1$s に .smali ファイルがありません</string>
+    <string name="dex_newer_opcodes">%1$s は新しいオペコードを使用しています: API %2$s</string>
+    <string name="dex_has_errors">%1$s にエラーがあります</string>
+    <string name="dex_jar_has_dex">%1$s は既に dex コードを含んでいます。Dex エディターで開いてください</string>
+    <string name="dex_no_class_files">%1$s に .class ファイルがありません</string>
+    <string name="dex_skipped_classes">%1$s 件スキップ (module-info, META-INF)</string>
+    <string name="dex_min_api">最小 API %1$s · デバッグ情報を保持</string>
+    <string name="dex_d8_failed">D8 に失敗しました</string>
+    <string name="dex_d8_unsupported">この Android バージョンでは D8 を実行できません: %1$s</string>
+    <string name="dex_d8_memory">この jar を変換するのに十分なメモリがありません</string>
+    <string name="dex_d8_no_dex">D8 が dex を生成しませんでした</string>
+    <string name="dex_cant_create">%1$s を作成できません</string>
+    <string name="dex_smali_has_errors">smali にエラーがあります</string>
+    <string name="dex_smali_more_errors">%1$s (さらに %2$s 件)</string>
+    <string name="dex_unexpected_token">予期しない \"%1$s\"</string>
+    <string name="dex_cant_read_smali">この smali を読み取れません</string>
+    <string name="dex_smali_syntax_error">smali の構文エラー</string>
+    <string name="dex_smali_error">smali エラー</string>
+    <string name="dex_no_classes_to_build">ビルドするクラスがありません</string>
+    <string name="dex_class_not_in_dex">%1$s はこの dex にありません</string>
+    <string name="dex_no_classes_in">%1$s にクラスが見つかりません</string>
+    <string name="dex_class_not_found">%1$s が見つかりませんでした</string>
+    <string name="dex_mode_strings">文字列</string>
+    <string name="dex_mode_classes">クラス</string>
+    <string name="dex_mode_methods">メソッド</string>
+    <string name="dex_mode_fields">フィールド</string>
+    <string name="dex_mode_code">コード</string>
+    <string name="dex_type_to_search">検索する内容を入力してください</string>
+    <string name="dex_invalid_regex">無効な正規表現</string>
+    <string name="dex_cant_read">この dex を読み取れません</string>
+    <string name="dex_not_in_file">%1$s はこのファイルにありません。Android またはライブラリが提供しています</string>
+    <string name="dex_not_defined">%1$s は %2$s またはその親にここで定義されていません</string>
+    <string name="dex_decompile_failed">逆コンパイルに失敗しました</string>
+    <string name="dex_rebuilding_apk">APK を再ビルド中</string>
+    <string name="dex_saving_dex">dex を保存中</string>
+    <string name="dex_rebuilding_jar">jar を再ビルド中</string>
+    <string name="dex_saved_class">%1$s を保存しました</string>
+    <string name="dex_search_failed">検索に失敗しました</string>
+    <string name="dex_to_jar_title">Dex → Jar</string>
+    <string name="dex_to_smali_title">Dex → Smali フォルダー</string>
+    <string name="dex_decompile_java">Java に逆コンパイル</string>
+    <string name="dex_wrote">%1$s を書き込みました</string>
+    <string name="dex_save_before_leaving">離れる前に %1$s への変更を保存しますか？</string>
+    <string name="dex_save_before_leaving_class">離れる前にこのクラスへの変更を保存しますか？</string>
+    <string name="dex_apk_rebuilt">APK を再ビルドしました</string>
+    <string name="dex_apk_rebuilt_text">APK の dex が変更されたため、署名が無効になり Android がインストールできません。今すぐ署名しますか？</string>
+    <string name="dex_read_only">読み取り専用</string>
+    <string name="dex_search_in_dex">dex 内を検索</string>
+    <string name="dex_tools">Dex ツール</string>
+    <string name="dex_menu_to_jar" translatable="false">Dex → Jar</string>
+    <string name="dex_menu_to_smali">Dex → Smali フォルダー</string>
+    <string name="dex_find_class">クラスを検索</string>
+    <string name="dex_no_class_matches">\"%1$s\" に一致するクラスはありません</string>
+    <string name="dex_text_to_find">検索するテキスト</string>
+    <string name="dex_match_case_short" translatable="false">Aa</string>
+    <string name="dex_whole_word">単語単位</string>
+    <string name="dex_regex">正規表現</string>
+    <string name="dex_only_package">%1$s のみ</string>
+    <string name="dex_search_progress">%2$d 中 %1$d クラスを検索 · %3$d 件発見</string>
+    <plurals name="dex_results">
+        <item quantity="other">%1$d 件の結果</item>
+    </plurals>
+    <string name="dex_showing_first">最初の %1$d 件を表示</string>
+    <string name="dex_nothing_found">何も見つかりません</string>
+    <string name="dex_line">%1$d 行目</string>
+    <string name="dex_find_in_class">クラス内を検索</string>
+    <string name="dex_members">メンバー</string>
+    <string name="dex_stop_editing">編集を終了</string>
+    <string name="dex_edit_smali">smali を編集</string>
+    <string name="dex_put_cursor">カーソルをクラス、メソッド、フィールドの上に置いてください</string>
+    <string name="dex_go_to_definition">定義へ移動</string>
+    <string name="dex_tap_hint">クラス、メソッド、フィールドをタップして開きます</string>
+    <plurals name="dex_class_count">
+        <item quantity="other">%1$d 個のクラス</item>
+    </plurals>
+    <plurals name="dex_member_count">
+        <item quantity="other">%1$d 個のメンバー</item>
+    </plurals>
+    <string name="dex_filter">フィルター</string>
+    <string name="dex_static" translatable="false">static</string>
+    <string name="archive_password_required">%1$s は暗号化されています: パスワードが必要です</string>
+    <string name="archive_wrong_password">パスワードが違うか、ファイルが破損しています</string>
+    <string name="archive_cannot_create">%1$s を作成できません</string>
+    <string name="archive_unsupported">未対応のアーカイブです: %1$s</string>
+    <string name="archive_path_traversal">アーカイブ内のパストラバーサルをブロックしました: %1$s</string>
+    <string name="archive_rar_damaged">%1$s は破損しています (チェックサムエラー)</string>
+    <string name="archive_rar_cant_open">%1$s を開けません。またはセットの次のボリュームがありません</string>
+    <string name="archive_rar_not_rar">%1$s は RAR アーカイブではないか、破損しています</string>
+    <string name="archive_rar_dictionary">%1$s は 4 GB を超える辞書が必要で、この端末には大きすぎます</string>
+    <string name="archive_rar_memory">%1$s を開くのに十分なメモリがありません</string>
+    <string name="archive_rar_unavailable">この端末では RAR サポートを利用できません</string>
+    <string name="archive_rar_error">%1$s を読み取れませんでした (UnRAR エラー %2$d)</string>
+    <string name="archive_not_in_archive">%1$s はアーカイブ内にありません</string>
+    <string name="archive_split_not_editable">分割 ZIP アーカイブは編集できません</string>
+    <string name="archive_encrypted_not_editable">暗号化アーカイブの編集は未対応です</string>
+    <string name="archive_7z_cycles">未対応のサイクル数: 2^%1$d</string>
+    <string name="archive_7z_not_7z">7z アーカイブではありません</string>
+    <string name="archive_7z_header_size">予期しない 7z ヘッダーサイズ</string>
+    <string name="archive_7z_header_encoded">7z ヘッダーは既にエンコードされています</string>
+    <string name="archive_7z_truncated">切り詰められた 7z アーカイブ</string>
+    <string name="archive_couldnt_extract">%1$s を展開できませんでした</string>
+    <string name="archive_updating_apk">APK を更新中</string>
+    <string name="archive_updating">アーカイブを更新中</string>
+    <plurals name="archive_files_into">
+        <item quantity="other">%1$s 個のファイル → %2$s</item>
+    </plurals>
+    <plurals name="archive_updated_files">
+        <item quantity="other">%1$s 個のファイルを更新しました</item>
+    </plurals>
+    <string name="archive_binary_xml">バイナリ XML · %1$s</string>
+    <string name="archive_invalid_xml">無効な XML</string>
+    <string name="archive_extracting">展開中</string>
+    <string name="archive_extracted_to">%1$s に展開しました</string>
+    <string name="archive_extract_failed">展開に失敗しました: %1$s</string>
+    <string name="archive_deleting">削除中</string>
+    <string name="archive_delete_failed">削除に失敗しました: %1$s</string>
+    <string name="archive_nothing_to_delete">削除するものがありません</string>
+    <string name="archive_renaming">名前を変更中</string>
+    <string name="archive_rename_failed">名前の変更に失敗しました: %1$s</string>
+    <string name="archive_adding">追加中</string>
+    <string name="archive_add_failed">追加に失敗しました: %1$s</string>
+    <plurals name="archive_added_items">
+        <item quantity="other">%1$d 個の項目を追加しました</item>
+    </plurals>
+    <string name="archive_couldnt_open">%1$s を開けませんでした: %2$s</string>
+    <plurals name="archive_selected">
+        <item quantity="other">%1$d 件選択中</item>
+    </plurals>
+    <string name="archive_extract">展開</string>
+    <plurals name="archive_entries">
+        <item quantity="other">%1$d 個のエントリ</item>
+    </plurals>
+    <string name="archive_read_only">読み取り専用</string>
+    <string name="archive_extract_all">すべて展開</string>
+    <string name="archive_options">オプション</string>
+    <string name="archive_add_files">ファイルを追加…</string>
+    <string name="archive_show_in_files">ファイル一覧で表示</string>
+    <string name="archive_couldnt_save">%1$s を保存できませんでした</string>
+    <string name="archive_edits_kept">アーカイブは変更されていません。編集内容は保持されています — 修正してもう一度保存してください。</string>
+    <string name="archive_edit_again">再編集</string>
+    <string name="archive_discard_edits">編集を破棄</string>
+    <string name="archive_new_name">新しい名前</string>
+    <string name="archive_delete_title">アーカイブから削除</string>
+    <plurals name="archive_delete_text">
+        <item quantity="other">%2$s から %1$d 個の項目を削除しますか？元に戻せません。</item>
+    </plurals>
+    <string name="archive_encrypted_title">暗号化アーカイブ</string>
+    <string name="archive_apk_modified">APK が変更されました</string>
+    <string name="archive_apk_modified_text">APK が変更されたため、署名が検証できなくなり Android がインストールできません。今すぐ署名しますか？</string>
+    <string name="archive_empty_folder">空のフォルダー</string>
+    <string name="archive_parent_folder">親フォルダー</string>
+    <string name="archive_cant_update_title">このアーカイブを更新できません</string>
+    <string name="archive_cant_update_text">この種類のアーカイブは更新に対応していないため、変更は書き込まれませんでした。編集したファイルを開いて別の場所に保存できます。</string>
+    <string name="archive_locate_file">ファイルの場所を開く</string>
+    <string name="archive_update_title">アーカイブを更新</string>
+    <string name="archive_modified_one">ファイル \"%1$s\" が変更されました。更新しますか？</string>
+    <string name="archive_modified_many">次のファイルが変更されました。更新しますか？</string>
+    <string name="archive_update">更新</string>
+    <string name="archive_into_new_folder">新しいフォルダーへ</string>
+    <string name="archive_next_to_archive">アーカイブの隣へ</string>
+    <string name="archive_other_pane_folder">反対側のペインのフォルダー</string>
+    <plurals name="archive_extract_items">
+        <item quantity="other">%1$d 個の項目を展開</item>
+    </plurals>
+    <string name="archive_extract_to">展開先</string>
+    <string name="arsc_no_resource">リソース %1$s がありません</string>
+    <string name="arsc_no_value_for_config">%1$s 構成の値がありません</string>
+    <string name="arsc_complex_not_editable">スタイル、配列、複数形はまだここでは編集できません</string>
+    <string name="arsc_unknown_reference">不明な参照 %1$s</string>
+    <string name="arsc_bool_value">bool は true か false です</string>
+    <string name="arsc_invalid_value">「%1$s」は有効な %2$s ではありません</string>
+    <string name="arsc_kind_color">色 (#RRGGBB / #AARRGGBB)</string>
+    <string name="arsc_kind_dimension">寸法 (例: 16dp, 14sp)</string>
+    <string name="arsc_kind_fraction" formatted="false">割合 (例: 50%)</string>
+    <string name="arsc_kind_number">数値</string>
+    <string name="arsc_kind_integer">整数</string>
+    <string name="arsc_kind_value">値</string>
+    <string name="arsc_step_encode">%1$s をエンコード</string>
+    <string name="arsc_stored_info">%1$s · %2$s · 保存済み (非圧縮)</string>
+    <plurals name="arsc_complex_items">
+        <item quantity="other">%1$s · %2$d 個の項目</item>
+    </plurals>
+    <string name="arsc_entry_not_found_in">%1$s は %2$s に見つかりません</string>
+    <string name="arsc_default_config">既定</string>
+    <string name="arsc_invalid_xml">無効な XML</string>
+    <string name="arsc_xml_line">%1$d 行目: %2$s</string>
+    <string name="arsc_entry_not_found">%1$s が見つかりません</string>
+    <string name="arsc_no_table">リソーステーブルがありません。</string>
+    <string name="arsc_no_resources">リソースがありません。</string>
+    <string name="arsc_cant_read_table">リソーステーブルを読み取れませんでした</string>
+    <string name="arsc_invalid_value_short">無効な値</string>
+    <string name="arsc_saving">リソースを保存中</string>
+    <plurals name="arsc_saved_changes">
+        <item quantity="other">%1$s 件の変更を保存しました</item>
+    </plurals>
+    <string name="arsc_search_type">%1$s を検索</string>
+    <string name="arsc_search_all">名前と値を検索</string>
+    <string name="arsc_save_before_leaving">離れる前に %1$s への変更を保存しますか？</string>
+    <string name="arsc_apk_changed">%1$s が変更されたため、署名が検証できなくなりました。インストールするには署名してください。</string>
+    <string name="arsc_sign">署名</string>
+    <string name="arsc_nothing_found">何も見つかりません</string>
+    <plurals name="arsc_configs">
+        <item quantity="other">%1$d 個の構成</item>
+    </plurals>
+    <string name="arsc_pick_color">色を選択</string>
+    <string name="arsc_read_only_for_now">今は読み取り専用</string>
+    <string name="arsc_hint_color">#RRGGBB または #AARRGGBB</string>
+    <string name="arsc_hint_dimension">例: 16dp, 14sp, 2px</string>
+    <string name="arsc_hint_boolean">true または false</string>
+    <string name="arsc_hint_reference">\@type/name、@android:type/name、または @null</string>
+    <string name="ninepatch_unpaired_horizontal">対になっていない横方向の伸縮領域</string>
+    <string name="ninepatch_unpaired_vertical">対になっていない縦方向の伸縮領域</string>
+    <string name="ninepatch_bad_horizontal">横方向の伸縮領域が不正です [%1$d, %2$d)</string>
+    <string name="ninepatch_bad_vertical">縦方向の伸縮領域が不正です [%1$d, %2$d)</string>
+    <string name="ninepatch_too_small">9-patch には最低 %1$d×%2$d ピクセル必要です</string>
+    <string name="ninepatch_corner_pixel">左上のピクセルは透明か不透明な白である必要があります</string>
+    <string name="ninepatch_red_misplaced">赤いマークは下/右の境界線に置きます</string>
+    <string name="ninepatch_border_pixel">境界線のピクセルが中立色、黒、赤のいずれでもありません</string>
+    <string name="ninepatch_content_lines_bottom">下の境界線に複数のコンテンツ線があります</string>
+    <string name="ninepatch_content_lines_right">右の境界線に複数のコンテンツ線があります</string>
+    <string name="ninepatch_bounds_lines_bottom">下の境界線にレイアウト境界線が多すぎます</string>
+    <string name="ninepatch_bounds_lines_right">右の境界線にレイアウト境界線が多すぎます</string>
+    <string name="ninepatch_bounds_touch_bottom">レイアウト境界線は下の境界線の端に接している必要があります</string>
+    <string name="ninepatch_bounds_touch_right">レイアウト境界線は右の境界線の端に接している必要があります</string>
+    <string name="ninepatch_nptc_short">npTc チャンクが短すぎます</string>
+    <string name="ninepatch_nptc_size">npTc チャンクのサイズが不正です</string>
+    <string name="ninepatch_nplb_short">npLb チャンクが短すぎます</string>
+    <string name="ninepatch_too_many_regions">伸縮領域が多すぎます</string>
+    <string name="ninepatch_form_source">ソース 9-patch</string>
+    <string name="ninepatch_form_compiled">コンパイル済み 9-patch</string>
+    <string name="ninepatch_not_png">PNG 画像ではありません</string>
+    <string name="ninepatch_cant_decode">Android がこの画像をデコードできません</string>
+    <string name="ninepatch_error_at_pixel">%1$s (ピクセル %2$d, %3$d)</string>
+    <string name="ninepatch_saved">%1$s を保存しました</string>
+    <string name="ninepatch_couldnt_save">保存できませんでした: %1$s</string>
+    <string name="ninepatch_mode_stretch">伸縮</string>
+    <string name="ninepatch_mode_content">コンテンツ</string>
+    <string name="ninepatch_hint_stretch">上のバーと左のバーをタップまたはドラッグして、伸縮する列と行を指定します。</string>
+    <string name="ninepatch_hint_content">下のバーと右のバーに沿ってドラッグし、コンテンツ (テキスト、アイコン) の位置を指定します。</string>
+    <string name="ninepatch_editor">9-patch エディター</string>
+    <string name="ninepatch_save_compiled_copy">コンパイル済みのコピーを保存</string>
+    <string name="ninepatch_save_source_copy">ソースのコピーを保存</string>
+    <string name="ninepatch_clear_stretch">伸縮領域をクリア</string>
+    <string name="ninepatch_reset_content">コンテンツ領域をリセット</string>
+    <string name="ninepatch_cant_open">このファイルを開けません</string>
+    <string name="ninepatch_start_over">境界線なしで最初から</string>
+    <string name="ninepatch_whole_picture">画像全体を 9-patch にする</string>
+    <string name="ninepatch_preview">プレビュー</string>
+    <string name="ninepatch_save_changes">変更を保存しますか？</string>
+    <string name="ninepatch_unsaved_text">9-patch の編集はまだ保存されていません。</string>
+    <string name="ninepatch_bar_stretch_columns">伸縮する列</string>
+    <string name="ninepatch_bar_stretch_rows">伸縮する行</string>
+    <string name="ninepatch_bar_content_rows">コンテンツの行</string>
+    <string name="ninepatch_bar_content_columns">コンテンツの列</string>
+    <string name="ninepatch_summary_stretch">伸縮: 列 %1$d 範囲、行 %2$d 範囲</string>
+    <string name="ninepatch_summary_content">コンテンツ %1$d, %2$d, %3$d, %4$d</string>
+    <string name="ninepatch_summary_content_derived">コンテンツ %1$d, %2$d, %3$d, %4$d (伸縮から)</string>
+    <string name="ninepatch_summary_bounds">レイアウト境界 %1$d, %2$d, %3$d, %4$d</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_title">セキュリティとプライバシー</string>
+    <string name="security_subtitle">他人に見えるもの</string>
+    <string name="security_screen_group">画面</string>
+    <string name="security_secure_ignored">この端末のシステムは全アプリでセキュア画面を無視する設定になっているため、ここでは効果がありません。</string>
+    <string name="security_secure_screen">セキュア画面</string>
+    <string name="security_secure_screen_summary">スクリーンショットと画面録画をブロックし、最近使ったアプリで Strata を隠します</string>
+    <string name="lock_group">アプリロック</string>
+    <string name="lock_footer">アプリロックがオンの間、最近使ったアプリには Strata の内容が表示されません。</string>
+    <string name="lock_switch">Strata をロック</string>
+    <string name="lock_switch_summary">Strata を開くときに指紋または画面ロックを求めます</string>
+    <string name="lock_after">離れてからロックするまで</string>
+    <string name="lock_now">今すぐロック</string>
+    <string name="lock_title">Strata はロックされています</string>
+    <string name="lock_subtitle">続行するには指紋または画面ロックを使用してください</string>
+    <string name="lock_unavailable">この端末には指紋も画面ロックも設定されていないため、Strata は確認を求められません。システム設定で画面ロックを設定するか、アプリロックをオフにしてください。</string>
+    <string name="lock_unlock">ロック解除</string>
+    <string name="lock_turn_off">アプリロックをオフにする</string>
+    <string name="lock_prompt_title">Strata のロック解除</string>
+    <string name="lock_prompt_subtitle">本人であることを確認してください</string>
+    <string name="lock_enable_title">アプリロックをオンにする</string>
+    <string name="lock_failed">本人確認に失敗しました</string>
+    <string name="lock_need_screen_lock">先にシステム設定で画面ロックまたは指紋を設定してください</string>
+    <string name="lock_unavailable_device">この端末では本人確認ができません</string>
+    <string name="vault_group">保管庫</string>
+    <string name="vault_footer">保管庫内のファイルは保管庫パスワードで暗号化されます。パスワードなしでは Strata でも復元できません。</string>
+    <string name="vault_drawer">保管庫</string>
+    <string name="vault_drawer_none">暗号化され、他のアプリからは見えません</string>
+    <string name="vault_setup_link">保管庫を設定</string>
+    <string name="vault_setup_summary">あなただけが開ける暗号化フォルダー</string>
+    <string name="vault_setup_title">保管庫を設定</string>
+    <string name="vault_setup_body">保管庫に移動したファイルはこの端末上で暗号化され、他のアプリ、ギャラリー、ファイルブラウザーから隠されます。</string>
+    <string name="vault_setup_warning">パスワードを忘れ、指紋が変わると、ファイルは復元できません — Strata でも復元できません。</string>
+    <string name="vault_password">保管庫のパスワード</string>
+    <string name="vault_password_again">もう一度入力</string>
+    <string name="vault_password_current">現在のパスワード</string>
+    <string name="vault_password_new">新しいパスワード</string>
+    <string name="vault_password_short">%1$d 文字以上</string>
+    <string name="vault_password_mismatch">パスワードが一致しません</string>
+    <string name="vault_use_biometric">指紋でロック解除</string>
+    <string name="vault_create">保管庫を作成</string>
+    <string name="vault_unlock_title">保管庫のロック解除</string>
+    <string name="vault_unlock_body">保管庫のパスワードを入力してください。</string>
+    <string name="vault_unlock_body_biometric">指紋センサーに触れるか、保管庫のパスワードを入力してください。</string>
+    <string name="vault_unlock_biometric">指紋センサーに触れる</string>
+    <string name="vault_use_password">パスワードを使う</string>
+    <string name="vault_use_fingerprint">指紋を使う</string>
+    <string name="vault_unlock">ロック解除</string>
+    <string name="vault_biometric_changed">指紋が変更されたため、指紋によるロック解除はオフになりました。保管庫のパスワードを使ってから、設定で再度オンにしてください。</string>
+    <string name="vault_biometric_failed">指紋認証に失敗しました</string>
+    <string name="vault_biometric_enable_title">指紋で保管庫のロックを解除</string>
+    <string name="vault_biometric_enable_subtitle">センサーに触れてオンにします</string>
+    <string name="vault_biometric_on">指紋によるロック解除がオンです</string>
+    <string name="vault_biometric_summary">パスワードも引き続き使えます</string>
+    <string name="vault_biometric_unavailable">この端末に指紋の設定が必要です</string>
+    <string name="vault_open">保管庫を開く</string>
+    <string name="vault_status_locked">ロック中</string>
+    <string name="vault_status_open">ロック解除済み</string>
+    <string name="vault_status_unlocked">ロック解除済み · %1$s · %2$s</string>
+    <string name="vault_lock_after">保管庫をロックするまで</string>
+    <string name="vault_lock_now">今すぐ保管庫をロック</string>
+    <string name="vault_change_password">保管庫のパスワードを変更</string>
+    <string name="vault_password_changed">保管庫のパスワードを変更しました</string>
+    <string name="vault_delete">保管庫を削除</string>
+    <string name="vault_delete_title">保管庫を削除しますか？</string>
+    <string name="vault_delete_body">保管庫内のすべてのファイルが完全に削除されます。残したいものは先に復元してください。</string>
+    <string name="vault_delete_confirm">すべて削除</string>
+    <string name="vault_deleted">保管庫を削除しました</string>
+    <string name="vault_ready">保管庫の準備ができました</string>
+    <string name="vault_task_moving">保管庫へ移動中</string>
+    <string name="vault_task_restoring">保管庫から復元中</string>
+    <string name="vault_locked_message">保管庫はロックされています</string>
+    <string name="vault_err_locked">保管庫はロックされています</string>
+    <string name="vault_err_wrong_password">保管庫のパスワードが違います</string>
+    <string name="vault_err_damaged">保管庫のデータが破損しているか、変更されています</string>
+    <string name="vault_err_exists">保管庫は既に存在します</string>
+    <string name="vault_err_missing">保管庫はまだありません</string>
+    <string name="vault_err_is_folder">%1$s はフォルダーです</string>
+    <string name="vault_err_write">%1$s を保管庫に保存できませんでした</string>
+    <string name="vault_err_root">保管庫の最上位フォルダーは変更できません</string>
+    <string name="vault_err_not_empty">%1$s は空ではありません</string>
+    <string name="vault_err_into_itself">%1$s を自身の中に入れることはできません</string>
+    <string name="vault_err_not_found">%1$s は保管庫にありません</string>
+    <string name="vault_err_no_folder">フォルダー %1$s は保管庫にありません</string>
+    <string name="vault_err_unavailable">この端末では保管庫を利用できません</string>
+    <string name="vault_err_link">%1$s はリンクです: リンクは保管庫に入れられません</string>
+    <string name="vault_err_kept_links">%1$s: 内部のリンクは除外されたため、元のファイルは保持されました</string>
+    <string name="vault_err_kept_original">%1$s: 保管庫にコピーしましたが、元のファイルを削除できませんでした</string>
+    <string name="vault_err_read">%1$s を読み込めませんでした</string>
+    <string name="language_title">言語</string>
+    <string name="language_subtitle">Strata は英語、ペルシア語、ロシア語、中国語、日本語に対応しています</string>
+    <string name="language_group">アプリの言語</string>
+    <string name="language_system">システムの既定</string>
+    <string name="language_english">英語</string>
+    <string name="language_persian">ペルシア語</string>
+    <string name="language_russian">ロシア語</string>
+    <string name="language_chinese">中国語 (簡体字)</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_system_note">これは端末設定の「アプリの言語」と同じ設定です。</string>
+    <string name="language_calendar_group">カレンダー</string>
+    <string name="language_persian_calendar">ペルシア語では太陽ヒジュラ暦の日付</string>
+    <string name="language_persian_calendar_summary">Strata がペルシア語のとき、日付は %1$s のように表示されます</string>
+    <string name="language_native_en" translatable="false">English</string>
+    <string name="language_native_fa" translatable="false">فارسی</string>
+    <string name="language_native_ru" translatable="false">Русский</string>
+    <string name="language_native_zh" translatable="false">简体中文</string>
+    <string name="language_native_ja" translatable="false">日本語</string>
+    <string name="language_help">右から左へ読む言語では、アプリ全体が反転します: ペイン、メニュー、ジェスチャーが読む方向に従います。コード、パス、16 進数は常に左から右です。</string>
+    <plurals name="vault_moved">
+        <item quantity="other">%d 個の項目を保管庫に移動しました</item>
+    </plurals>
+    <plurals name="vault_restored">
+        <item quantity="other">%d 個のファイルを復元しました</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Strata</string>
+    <string name="settings_group_install_backends">Install methods</string>
+    <string name="settings_install_backends_footer">You can turn on several at once; installs use the first available one by the priority below.</string>
+    <string name="settings_group_install_priority">Priority</string>
+    <string name="settings_install_priority_footer">Currently using: %1$s. Tried from top to bottom.</string>
+    <string name="settings_install_priority_explain">Among the enabled methods, the first one that is currently available is used; if none are, it falls back to the normal installer.</string>
+    <string name="settings_install_backend_ready">Available</string>
+    <string name="settings_install_backend_unavailable">Currently unavailable</string>
+
+    <string name="settings_page_long_press">Long-press menu</string>
+    <string name="install_backend_root">Root</string>
+    <string name="install_backend_shizuku">Shizuku</string>
+    <string name="install_backend_dhizuku">Dhizuku</string>
+</resources>

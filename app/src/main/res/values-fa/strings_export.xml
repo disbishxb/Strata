@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_list_title">خروجی فهرست فایل‌ها</string>
+    <string name="export_list_scanning">در حال پیمایش…</string>
+    <string name="export_list_failed">خطا در خروجی: %1$s</string>
+    
+    <string name="export_list_share">اشتراک‌گذاری</string>
+    <string name="export_list_menu">خروجی فهرست فایل‌ها</string>
+    <string name="export_list_kind_dir">پوشه</string>
+    <string name="export_list_kind_archive">آرشیو</string>
+    <string name="export_list_empty">این پوشه خالی است.</string>
+    <string name="export_list_abs">مسیر مطلق</string>
+    <string name="export_list_rel">مسیر نسبی</string>
+    <string name="export_list_level1">شامل موارد سطح ۱</string>
+    <string name="export_list_recur">شامل همه موارد فرعی</string>
+    <string name="export_list_slash">افزودن / به پوشه‌ها</string>
+    <string name="export_list_save">ذخیره در…</string>
+    <string name="export_list_format">قالب</string>
+    <string name="export_list_encoding">کدگذاری</string>
+    <string name="export_list_bom">افزودن BOM (سازگار با Excel)</string>
+    <string name="export_list_summary">مجموع %1$d مورد، %2$d فایل. قابل اشتراک‌گذاری به عنوان %3$s.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_list_title">ファイル一覧をエクスポート</string>
+    <string name="export_list_scanning">スキャン中…</string>
+    <string name="export_list_failed">エクスポートに失敗しました: %1$s</string>
+    
+    <string name="export_list_share">共有</string>
+    <string name="export_list_menu">ファイル一覧をエクスポート</string>
+    <string name="export_list_kind_dir">ディレクトリ</string>
+    <string name="export_list_kind_archive">アーカイブ</string>
+    <string name="export_list_empty">このフォルダーは空です。</string>
+    <string name="export_list_abs">絶対パスをエクスポート</string>
+    <string name="export_list_rel">相対パスをエクスポート</string>
+    <string name="export_list_level1">第 1 階層のサブ項目を含める</string>
+    <string name="export_list_recur">すべてのサブ項目を含める</string>
+    <string name="export_list_slash">フォルダー名の末尾に / を付ける</string>
+    <string name="export_list_save">保存先…</string>
+    <string name="export_list_format">形式</string>
+    <string name="export_list_encoding">文字コード</string>
+    <string name="export_list_bom">BOM を付ける (Excel 向け)</string>
+    
+    <string name="export_list_summary">合計 %1$d 項目、%2$d ファイル。%3$s として共有できます。</string>
+</resources>

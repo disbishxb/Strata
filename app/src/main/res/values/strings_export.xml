@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_list_title">Export file list</string>
+    <string name="export_list_scanning">Scanning…</string>
+    <string name="export_list_failed">Export failed: %1$s</string>
+    
+    <string name="export_list_share">Share</string>
+    <string name="export_list_menu">Export file list</string>
+    <string name="export_list_kind_dir">Directory</string>
+    <string name="export_list_kind_archive">Archive</string>
+    <string name="export_list_empty">This folder is empty.</string>
+    <string name="export_list_abs">Export absolute path</string>
+    <string name="export_list_rel">Export relative path</string>
+    <string name="export_list_level1">Include 1st-level subitems</string>
+    <string name="export_list_recur">Include all subitems</string>
+    <string name="export_list_slash">Append / to folder names</string>
+    <string name="export_list_save">Save to…</string>
+    <string name="export_list_format">Format</string>
+    <string name="export_list_encoding">Encoding</string>
+    <string name="export_list_bom">Add BOM (Excel-friendly)</string>
+    
+    <string name="export_list_summary">Total %1$d items, %2$d files. Shareable as %3$s.</string>
+</resources>

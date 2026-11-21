@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_list_title">Экспорт списка файлов</string>
+    <string name="export_list_scanning">Сканирование…</string>
+    <string name="export_list_failed">Ошибка экспорта: %1$s</string>
+    
+    <string name="export_list_share">Поделиться</string>
+    <string name="export_list_menu">Экспорт списка файлов</string>
+    <string name="export_list_kind_dir">Каталог</string>
+    <string name="export_list_kind_archive">Архив</string>
+    <string name="export_list_empty">Эта папка пуста.</string>
+    <string name="export_list_abs">Абсолютный путь</string>
+    <string name="export_list_rel">Относительный путь</string>
+    <string name="export_list_level1">Включить 1-й уровень</string>
+    <string name="export_list_recur">Включить все подэлементы</string>
+    <string name="export_list_slash">Добавлять / к папкам</string>
+    <string name="export_list_save">Сохранить в…</string>
+    <string name="export_list_format">Формат</string>
+    <string name="export_list_encoding">Кодировка</string>
+    <string name="export_list_bom">Добавить BOM (для Excel)</string>
+    <string name="export_list_summary">Всего %1$d элементов, %2$d файлов. Можно поделиться как %3$s.</string>
+</resources>

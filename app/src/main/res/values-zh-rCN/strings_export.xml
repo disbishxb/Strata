@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="export_list_title">导出文件列表</string>
+    <string name="export_list_scanning">正在扫描…</string>
+    <string name="export_list_failed">导出失败：%1$s</string>
+    
+    <string name="export_list_share">分享</string>
+    <string name="export_list_menu">导出文件列表</string>
+    <string name="export_list_kind_dir">目录</string>
+    <string name="export_list_kind_archive">压缩包</string>
+    <string name="export_list_empty">此文件夹为空。</string>
+    <string name="export_list_abs">导出绝对路径</string>
+    <string name="export_list_rel">导出相对路径</string>
+    <string name="export_list_level1">包含子一级文件(夹)</string>
+    <string name="export_list_recur">包含所有子文件(夹)</string>
+    <string name="export_list_slash">文件夹使用 / 作为后缀</string>
+    <string name="export_list_save">保存到…</string>
+    <string name="export_list_format">格式</string>
+    <string name="export_list_encoding">编码</string>
+    <string name="export_list_bom">添加 BOM（Excel 友好）</string>
+    <string name="export_list_summary">共 %1$d 项，文件 %2$d 个。可分享为 %3$s。</string>
+</resources>
